@@ -5,9 +5,7 @@ const getAllMembers = (req, res) => {
     const allMembers = memberService.getAllMembers();
     res.status(200).send({
       status: "OK",
-      data: {
-        allMembers,
-      },
+      data: allMembers,
     });
   } catch (error) {
     res.status(error?.status || 500).send({
