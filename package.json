@@ -1,0 +1,30 @@
+{
+  "name": "crossfit-wod-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nezvinskyi/crossfit-wod-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nezvinskyi/crossfit-wod-api/issues"
+  },
+  "homepage": "https://github.com/nezvinskyi/crossfit-wod-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "apicache": "^1.6.3",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "uuid": "^8.3.2"
+  }
+}
